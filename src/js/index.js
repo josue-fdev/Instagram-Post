@@ -34,8 +34,8 @@ function render(variables = {}) {
   if (variables.role == null) variables.role = "Role in the company";
   if (variables.country == null) variables.country = "Country";
   if (variables.city == null) variables.city = "City";
-  if (variables.socialMediaPosition == "left")
-    
+  
+
   // reset the website body with the new html output
   document.querySelector("#widget_content").innerHTML = `
     <div class="widget">
@@ -48,7 +48,11 @@ function render(variables = {}) {
       <h3>
         ${variables.city}, ${variables.country}
       </h3>
-      <ul class="position-right">
+      <ul class=${
+            variables.socialMediaPosition === "position-right"
+              ? "position-right"
+              : "position-left"
+          }>
         <li>
           <a href="https://twitter.com/${variables.twitter}">
             <i class="fa fa-twitter"></i>
