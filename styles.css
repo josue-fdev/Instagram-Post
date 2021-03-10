@@ -1,0 +1,36 @@
+body {background-color: black; 
+    font-size: 15px; 
+    font-family: 'Rubik', sans-serif;}
+.icons{margin: 3%;}
+.fab {font-size: 28px; margin: 1%}
+.fas {font-size: 28px; margin: 1%}
+.far {font-size: 28px; margin: 1%}
+.instagram-post{
+    background: white; 
+    width: 400px; height: 550px; 
+    margin: auto;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    margin: 15px;}
+.instagram-header{overflow: hidden; height: 40px; margin: 1%;}
+.fa-ellipsis-v{float: right; margin: 2% ;}
+.fa-html5{margin: 2%;}
+.instagram-body{
+    overflow: hidden;
+    margin: auto;
+    height: 280px;
+    margin: 0%;}
+.instagram-body img{width: 400px; height: 280px; }
+.instagram-footer{
+    overflow: hidden; 
+    height: 205px; 
+    margin: 1%; }
+.fa-bookmark {float: right; margin: 2%;}
+.likes{margin: 2%;}
+.coments{
+    margin: 2%; 
+    overflow: auto; 
+    height: 100px;}
+
