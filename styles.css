@@ -6,15 +6,20 @@ body {background-color: black;
 .fas {font-size: 28px; margin: 1%}
 .far {font-size: 28px; margin: 1%}
 .instagram-post{
+    border-radius: 2%;
     background: white; 
-    width: 400px; height: 550px; 
+    width: 420px; height: 550px; 
     margin: auto;
     position: absolute; 
     top: 50%; 
     left: 50%; 
     transform: translate(-50%, -50%);
     margin: 15px;}
-.instagram-header{overflow: hidden; height: 40px; margin: 1%;}
+.header-left-content {
+    display: flex;
+    flex-direction: row;}
+
+.instagram-header{overflow: hidden; height: 40px; margin: 4%; display: flex; flex-direction: row; justify-content: space-between;}
 .fa-ellipsis-v{float: right; margin: 2% ;}
 .fa-html5{margin: 2%;}
 .instagram-body{
@@ -33,4 +38,3 @@ body {background-color: black;
     margin: 2%; 
     overflow: auto; 
     height: 100px;}
-
